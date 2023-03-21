@@ -36,10 +36,7 @@ Mode *Copter::mode_from_mode_num(const Mode::Number mode)
             ret = &mode_acro;
             break;
 #endif
-        case Mode::Number::NEW_MODE:
-            ret = &mode_new_mode;
-            break;
-            
+
         case Mode::Number::STABILIZE:
             ret = &mode_stabilize;
             break;
